@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    color: #16ee61;
+    font-family: "Times New Roman",serif;
+    font-size: 50pt
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
