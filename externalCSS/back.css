@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #19af2d, #01090c, #fafbff);
+    background: linear-gradient(-45deg, #ee7752, #19af2d, #b221a5, #e5098d);
     background-size: 400% 400%;
     animation: gradien 15s ease infinite;
 }
