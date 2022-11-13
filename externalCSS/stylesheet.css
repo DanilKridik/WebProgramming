@@ -1,13 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --heigt-primary: 300px;
+    --sizePictureMax: 90%
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
 }
+
+#header{
+    color: #1c120d;
+    font-size: xxx-large;
+
+}
+#content{
+    width: 70%;
+    font-size: 18px;
+}
+
+#sidebar{
+    width: 30%;
+    text-align: center;
+}
+
+#sidebar h3{
+    margin-top: 0
+}
+
+#pictureDOS{
+    max-height: var(--heigt-primary);
+    max-width: var(--sizePictureMax);
+    text-align: center;
+}
+
+span.bold {
+    font-weight: bold;
+}
+
 h1 {
     text-align: center;
     font-size: 50pt
 }
--->
+
 th {
     border: 1px solid black;
 }
@@ -15,3 +51,22 @@ th {
 td {
     border: 1px solid black;
 }
+
+table{
+    border-collapse: collapse;
+}
+#sidebar table {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: auto;
+
+}
+#sidebar td, th {
+    padding: 3px 7px 2px 7px;
+    color: #FFFFFF;
+}
+
+
+#sidebar tr:nth-child(even) { background-color: #0b0908; }
+#sidebar tr:nth-child(odd) { background-color: #1c120d; }
