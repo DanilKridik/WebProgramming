@@ -1,11 +1,10 @@
 #history {
-    overflow: hidden;
     background: #f99;
     width: 60%;
+    position: absolute;top: 90px;left: 30px;
 }
 .picture{
     float: right;
-    background: #99f;
 }
 .head{
     text-align: center;
